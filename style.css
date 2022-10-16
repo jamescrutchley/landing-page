@@ -1,0 +1,57 @@
+body {
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header, .footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.block-one {
+    background-color: rgb(27, 27, 130);
+    color: white;
+    display: flex;
+}
+
+.block-two {
+   display: flex;
+}
+
+.block-three {
+    background-color: lightgray;
+    display: flex;
+}
+
+.block-four {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
